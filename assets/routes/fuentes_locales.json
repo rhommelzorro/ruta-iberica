@@ -1,0 +1,285 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "local-es-vp-madrid",
+        "name": "Cañada Real (tramo muestra — oeste de Madrid)",
+        "country": "ES",
+        "locality": "Madrid",
+        "route_type": "via_pecuaria",
+        "allows_walking": true,
+        "allows_cycling": null,
+        "difficulty": null,
+        "surface": null,
+        "elevation_gain_m": null,
+        "description": "Muestra basada en el concepto de vías pecuarias clasificadas (RGVP). No es la cobertura completa. Verificar estado legal y permisos locales.",
+        "usage_notes": "Uso ganadero histórico. Aptitud ciclista: desconocida.",
+        "physical_status": "desconocido",
+        "source_code": "miteco_rgvp",
+        "source_name": "Red General de Vías Pecuarias (MITECO)",
+        "attribution": "Fuente: © Ministerio para la Transición Ecológica y el Reto Demográfico",
+        "license_name": "Reutilización información sector público (MITECO)",
+        "source_link": "https://www.miteco.gob.es/es/cartografia-y-sig/ide/descargas/biodiversidad/vias_pecuarias.html",
+        "source_updated_at": "2024-12-31",
+        "is_demo": true,
+        "official": true,
+        "ccaa": "Comunidad de Madrid",
+        "province": "Madrid"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -3.85,
+            40.42
+          ],
+          [
+            -3.82,
+            40.43
+          ],
+          [
+            -3.79,
+            40.435
+          ],
+          [
+            -3.76,
+            40.44
+          ],
+          [
+            -3.73,
+            40.445
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "local-es-vp-toledo",
+        "name": "Cordel (tramo muestra — entorno Toledo)",
+        "country": "ES",
+        "locality": "Toledo",
+        "route_type": "via_pecuaria",
+        "allows_walking": true,
+        "allows_cycling": null,
+        "description": "Tramo de demostración con atribución MITECO. Importar el GeoJSON oficial completo para cobertura real.",
+        "physical_status": "desconocido",
+        "source_code": "miteco_rgvp",
+        "source_name": "Red General de Vías Pecuarias (MITECO)",
+        "attribution": "Fuente: © Ministerio para la Transición Ecológica y el Reto Demográfico",
+        "license_name": "Reutilización información sector público (MITECO)",
+        "source_link": "https://www.miteco.gob.es/es/cartografia-y-sig/ide/descargas/biodiversidad/vias_pecuarias.html",
+        "source_updated_at": "2024-12-31",
+        "is_demo": true,
+        "official": true,
+        "ccaa": "Castilla-La Mancha",
+        "province": "Toledo"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -4.02,
+            39.86
+          ],
+          [
+            -4,
+            39.87
+          ],
+          [
+            -3.98,
+            39.875
+          ],
+          [
+            -3.96,
+            39.88
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "local-es-vv-ebro",
+        "name": "Vía Verde del Ebro (tramo ilustrativo — Tortosa)",
+        "country": "ES",
+        "locality": "Tortosa",
+        "route_type": "via_verde",
+        "allows_walking": true,
+        "allows_cycling": true,
+        "description": "Ilustración de una vía verde. La web viasverdes.com no ofrece API abierta verificada; este trazado es demostrativo y no sustituye el itinerario oficial de la FFE.",
+        "physical_status": "desconocido",
+        "source_code": "vias_verdes_ref",
+        "source_name": "Referencia Vías Verdes (FFE) — sin descarga abierta verificada",
+        "attribution": "Referencia informativa: Fundación de los Ferrocarriles Españoles — viasverdes.com",
+        "license_name": "Datos de demostración en app",
+        "source_link": "https://viasverdes.com/itinerarios/",
+        "is_demo": true,
+        "official": false,
+        "ccaa": "Cataluña",
+        "province": "Tarragona"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.52,
+            40.81
+          ],
+          [
+            0.53,
+            40.815
+          ],
+          [
+            0.54,
+            40.82
+          ],
+          [
+            0.55,
+            40.825
+          ],
+          [
+            0.56,
+            40.83
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "local-pt-eco-aveiro",
+        "name": "Ecopista (tramo demostrativo — Aveiro)",
+        "country": "PT",
+        "locality": "Aveiro",
+        "route_type": "ecopista",
+        "allows_walking": true,
+        "allows_cycling": true,
+        "description": "DATOS DE DEMOSTRACIÓN. IP Património describe las Ecopistas pero no se verificó GeoJSON abierto. No confundir con cobertura nacional ni con ferrocarril abandonado automáticamente transitable.",
+        "physical_status": "desconocido",
+        "source_code": "ip_ecopistas_ref",
+        "source_name": "Referencia Ecopistas — IP Património",
+        "attribution": "Referencia: IP Património / Infraestruturas de Portugal — Ecopistas",
+        "license_name": "Datos de demostración en app",
+        "source_link": "https://ippatrimonio.pt/ecopistas",
+        "is_demo": true,
+        "official": false,
+        "ccaa": "Portugal",
+        "province": "Aveiro"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -8.65,
+            40.64
+          ],
+          [
+            -8.64,
+            40.63
+          ],
+          [
+            -8.63,
+            40.62
+          ],
+          [
+            -8.62,
+            40.61
+          ],
+          [
+            -8.61,
+            40.6
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "local-pt-eco-guimaraes",
+        "name": "Ecopista (tramo demostrativo — Guimarães)",
+        "country": "PT",
+        "locality": "Guimarães",
+        "route_type": "ecopista",
+        "allows_walking": true,
+        "allows_cycling": true,
+        "description": "DATOS DE DEMOSTRACIÓN. Cobertura incompleta a propósito.",
+        "physical_status": "desconocido",
+        "source_code": "ip_ecopistas_ref",
+        "source_name": "Referencia Ecopistas — IP Património",
+        "attribution": "Referencia: IP Património — Ecopistas (demostración)",
+        "source_link": "https://ippatrimonio.pt/ecopistas",
+        "is_demo": true,
+        "official": false,
+        "ccaa": "Portugal",
+        "province": "Braga"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -8.3,
+            41.44
+          ],
+          [
+            -8.29,
+            41.435
+          ],
+          [
+            -8.28,
+            41.43
+          ],
+          [
+            -8.27,
+            41.425
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "local-es-camino-natural-duero",
+        "name": "Camino Natural (tramo ilustrativo — Duero / Soria)",
+        "country": "ES",
+        "locality": "Soria",
+        "route_type": "camino_natural",
+        "allows_walking": true,
+        "allows_cycling": null,
+        "description": "Ilustración. Conector MAPA Caminos Naturales pendiente de verificación de licencia/formato; no presentar como cobertura completa.",
+        "physical_status": "desconocido",
+        "source_code": "mapa_caminos_ref",
+        "source_name": "Referencia Red de Caminos Naturales (MAPA)",
+        "attribution": "Referencia: MAPA — Red de Caminos Naturales",
+        "source_link": "https://www.mapa.gob.es/es/cartografia-y-sig/ide/descargas/desarrollo-rural/red-caminos-naturales",
+        "is_demo": true,
+        "official": false,
+        "ccaa": "Castilla y León",
+        "province": "Soria"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.48,
+            41.76
+          ],
+          [
+            -2.47,
+            41.765
+          ],
+          [
+            -2.46,
+            41.77
+          ],
+          [
+            -2.45,
+            41.775
+          ]
+        ]
+      }
+    }
+  ]
+}

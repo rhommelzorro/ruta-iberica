@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Ruta Ibérica",
+    "slug": "ruta-iberica",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "rutaiberica",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rutaiberica.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Ruta Ibérica usa su ubicación solo al pulsar «Mi ubicación» o calcular la distancia al inicio de una ruta. No se almacena por defecto ni se rastrea en segundo plano."
+      }
+    },
+    "android": {
+      "package": "com.rutaiberica.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#1A2B24",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"],
+      "usesCleartextTraffic": true,
+      "config": {
+        "googleMaps": {
+          "apiKey": "${EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}"
+        }
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Ruta Ibérica usa su ubicación solo cuando usted lo solicita para centrar el mapa o medir la distancia al inicio. No hay seguimiento en segundo plano."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "local-dev-ruta-iberica"
+      }
+    }
+  }
+}
